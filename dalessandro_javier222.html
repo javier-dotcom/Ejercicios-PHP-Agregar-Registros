@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background-color:black;
+          color:white;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <h2>Ejercicio 222</h2>
+    <p>Se dispone de un conjunto de boletas de inscripción de alumnos a examen. Cada boleta tiene los siguientes datos (guardados en una tabla llamada Inscripción):
+        <ul>
+            <li> Nro de legajo (7 dígitos)</li>
+            <li> Código de materia (6 dígitos)</li>
+            <li> Día del examen (2 dígitos)</li>
+            <li> Mes del examen (2 dígitos)</li>
+            <li> Año del examen (4 dígitos)</li>
+            <li> Apellido y Nombre (25 caracteres)</li>
+        </ul>
+        Desarrollar un programa que permita agregar más inscripciones de alumnos a los exámenes.
+    </p>
+    <h3>Inscribir alumnos</h3>
+    <form action="dalessandro_javier222.php" method="post">
+        <label>Nro legajo</label>
+        <input type="text" name="lega" maxlength="7">
+
+        <label>Codigo Materia</label>
+        <input type="text" name="codimateria" maxlength="6">
+
+        <label>Dia examen</label>
+        <input type="text" name="dia" maxlength="2">
+        <br>
+        <br>
+        <label>Mes examen</label>
+        <input type="text" name="mes" maxlength="2">
+
+        <label>Año examen</label>
+        <input type="text" name="anio" maxlength="4">
+
+        <label>Nombre y Apellido</label>
+        <input type="text" name="nom" maxlength="25">
+        <br>
+        <br>
+        <input type="submit" value="Inscribir">
+    </form>
+</body>
+
+</html>
